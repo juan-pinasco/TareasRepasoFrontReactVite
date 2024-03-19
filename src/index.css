@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorDeCards {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-top: 20px;
+}
+
+.card {
+  background-color: #202020;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.titleCard {
+  text-transform: capitalize;
+}
+
+.descriptionCard {
+  color: darkgrey;
+  text-transform: capitalize;
+}
+
+.buttonCardEliminar {
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.buttonCardEliminar:hover {
+  background-color: deeppink;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #202020;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+}
+.agregarTarea {
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.titleForm {
+  cursor: default;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.descriptionForm {
+  cursor: default;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.bottonForm {
+  color: aliceblue;
+  margin: 10px;
+  background-color: green;
+  width: 50%;
+  border-radius: 10px;
+}
+.bottonForm:hover {
+  background-color: greenyellow;
+}
+
+.Nohaytareasaun {
+  color: aliceblue;
+  text-transform: uppercase;
+}
